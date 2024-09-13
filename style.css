@@ -1,0 +1,122 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1587923623987-c7e4083beb23?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHN1bnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(233, 200, 200, 0.3), rgba(0, 0, 0, 0.6));
+    min-height: 100vh;
+}
+
+#headerInput {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#input {
+    padding: 15px;
+    background-color: rgba(142, 127, 161, 0.3);
+    border-radius: 20px;
+    border: 3px solid #CDF3A2;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#input:focus {
+    background-color: white;
+}
+
+#input:hover {
+    transition-duration: 2s;
+}
+
+#when-where {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city {
+    color: #ffff;
+    font-size: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: SemiBold;
+}
+
+#date {
+    color: #ffff;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#time {
+    color: #ffff;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 10;
+}
+
+#now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#temperature {
+    color: white;
+    font-size: 110px;
+    font-weight: bold;
+    text-shadow: 3px 5px black;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: SemiBold;
+    margin: 0;
+}
+
+#feelslike {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: light;
+}
+
+#conditions {
+    color: white;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: light;
+    font-style: italic;
+}
+
+#varation {
+    color: white;
+    font-size: 32px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: light;
+    margin: 0;
+}
